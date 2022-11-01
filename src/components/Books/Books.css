@@ -1,0 +1,100 @@
+.shadow.p-3.mb-3.bg-white.rounded.card
+{
+    height: 500px;
+}
+.addFav{
+    width:50px;
+    height: 50px;
+}
+#heaart{
+    margin-left: -5px;
+}
+
+body{
+    overflow-x: hidden;
+}
+img.card-img-top{
+    height: 450px;
+}
+#filterFieldName, #filterFieldAuthor, #filterFieldPrice{
+/* width: 80%; */
+}
+#filterFieldName:focus, #filterFieldAuthor:focus, #filterFieldPrice:focus{
+    /* width: 80%; */
+    outline-width: 0px;
+    }
+#sortAll{
+    margin-left:-150px;
+    border:2px solid #F58634; 
+    color:#F58634;
+}
+#sortAll:hover{
+    background-color: #F58634;
+    color:white;
+}
+.heart{
+   
+    display: none;
+    font-size: 2rem;
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+  
+  /* opacity: 0; */
+  transition: .3s ease;
+}
+
+img.card-img-top:hover{
+    backdrop-filter: blur(10px);
+    filter: blur(4px);
+    transition: 0.5s ease;
+}
+/* img.card-img-top:hover + .heart{
+    display: block;
+    color:orange;
+   
+   
+} */
+.card-body
+{
+    height: 270px;
+}
+.slika
+{
+    width: 100px;
+    height: 200px;
+}
+@media only screen and (max-width: 970px) {
+   .makeStyles-root-1
+   {
+       flex-direction: column;
+       font-size: 12px;
+       
+   }
+   
+   .filter{
+       flex-direction: column; 
+   }
+   #filterFieldName, #filterFieldAuthor, #filterFieldPrice{
+      width: 100%;
+     
+   }
+   .slika
+   {
+       width: 100px;
+       height: 100px;
+   }
+   .MuiTypography-root.MuiCardHeader-title.MuiTypography-h5.MuiTypography-displayBlock,#knizara
+   {
+       font-size: 15px;
+   }
+   .shadow.p-3.mb-3.bg-white.rounded.card
+   {
+    background: transparent;
+    text-decoration: none;
+   }
+
+  }

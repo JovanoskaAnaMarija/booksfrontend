@@ -1,0 +1,23 @@
+#heart:hover{
+    color: orange;
+}
+.nav-link
+{
+    white-space: nowrap;
+}
+a.nav-link:hover {
+    border-bottom: 1px solid #F58634;
+}
+button#dropdown-basic.bg-white.dropdown-toggle.btn.btn-primary:hover{
+    border-bottom: 1px solid #F58634;
+}
+div.dropdown:hover{
+    border-bottom: 1px solid #F58634;
+}
+.form-control{
+    border: 0px;
+    box-shadow: none;
+}
+div.dropdown:focus{
+   outline-width: 0px;
+}
